@@ -44,10 +44,10 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 - 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
 - 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
 
-![](assets/divider.png)
-
 <div align="center">
 
 Full portfolio, case studies, and writing: **[shivanshsen.com](https://shivanshsen.com)** · [LinkedIn](https://www.linkedin.com/in/shivanshsen7/) · [Trailhead](https://www.salesforce.com/trailblazer/shivanshsen7)
 
 </div>
+
+![](assets/divider.png)
