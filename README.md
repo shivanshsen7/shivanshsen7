@@ -3,7 +3,7 @@
 ![Shivansh Sen — Principal Technical Consultant, Salesforce Agentforce & Data Cloud, agentic AI in production](assets/banner.png)
 
 <p>
-  <img src="https://img.shields.io/badge/18x-Salesforce_Certified-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
+  <img src="https://img.shields.io/badge/18x-Salesforce_Certified-00A1E0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform_Integration_Architect-00A1E0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Agentforce_Specialist-00A1E0?style=for-the-badge" />
 </p>
@@ -11,6 +11,8 @@
 </div>
 
 I spent five years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations. Now I'm deploying AI agents across that stack and beyond: Anthropic, Gemini, AWS, and more.
+
+![](assets/divider.png)
 
 <table>
 <tr>
@@ -42,13 +44,13 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 ### Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=flat-square&logo=salesforce&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="assets/badge-salesforce.svg" />
+  <img src="assets/badge-aws.svg" />
   <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
   <img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
+  <img src="assets/badge-codex.svg" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 </p>
