@@ -21,6 +21,7 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 - 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
 - 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
 - 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
+<br>
 
 </td>
 <td width="40%" valign="top">
@@ -31,6 +32,7 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 - 🏅 18x Salesforce Certified
 - 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
 - 💼 [Full portfolio](https://shivanshsen.com/portfolio)
+<br>
 
 </td>
 </tr>
