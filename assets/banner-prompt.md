@@ -79,51 +79,85 @@ taper at the ends, no drop shadows, crisp hard edges, thin strand width
 relative to the frame height. No text, no logos, no watermark.
 ```
 
-## divider.gif
+## divider.gif (tried, reverted)
 
-An animated version of `divider.png`, used in place of the static image in the
-README. Model: Gemini Omni Flash (`gemini-omni-flash-preview`), called
-directly via the Gemini API (image-to-video), anchored on the actual
-`divider.png` file as the input image rather than a blind text prompt.
+An animated version of `divider.png` was tried and shipped briefly (Gemini
+Omni Flash, image-to-video, anchored on `divider.png` as the source image).
+It read fine on inspection but looked worse than the static original once
+actually placed on the profile — reverted back to `assets/divider.png`, and
+the gif file removed from the repo. Kept as a note here so the attempt
+isn't repeated blind: a text-only prompt rewrite of the same motif (no
+source image) failed worse first, coming back as a 3D-shaded
+interlocking-ring "atom" shape instead of the flat vector look — anchoring
+on the real source image fixed *that* specific failure, but the animated
+divider still wasn't an improvement over the plain static image for this
+particular spot on the page.
 
-A first attempt used a fresh text-only prompt describing the same weaving
-motif — it ignored the "flat, no gradients, no shading" instructions and
-came back as a 3D-shaded interlocking-ring "atom" shape, closer to a
-generic AI-video default than the site's actual flat-vector mark. Feeding
-the real `divider.png` as the source image for image-to-video generation
-instead kept the output anchored to the true flat style and exact brand
-palette.
+## avatar-sandbend.gif / avatar-sandbend.mp4
 
-The model composited the source's transparent background as solid black for
-the first frame and a light gray (`srgb(224,224,224)`, coincidentally the
-same tone used to key `divider.png`'s own checkerboard artifact — see below)
-for the rest of the clip, rather than any real alpha channel — video output
-has no alpha channel to preserve in the first place. Recovered via
-`ffmpeg colorkey` on that gray, after trimming off the one black lead-in
-frame. The raw generation was also not a seamless loop (first and last
-frame don't match), so it's ping-ponged (forward + reverse, concatenated)
-rather than regenerated — a plain edit, not a second API call — which
-guarantees a seamless loop from a single one-directional generation.
-Trimmed to ~4.5s of source before ping-ponging and downscaled for file size
-(the full untrimmed ping-pong version was 14MB; the shipped version is ~3MB).
+A short looping animation of the GitHub avatar (an illustrated character
+portrait, turban and robe, already depicted mid-sandbending with a swirl of
+sand in his raised palm), used in the README's right column. `.mp4` (with
+audio) is kept in the repo for potential reuse elsewhere later; `.gif`
+(silent, no audio track — GIF can't carry one) is what's actually embedded,
+since GitHub strips `<video>` tags from README markdown entirely, so a real
+video element can't render there regardless of format.
+
+Two prior attempts before this one:
+1. A fresh text prompt (no reference image, no established character) —
+   came back as a generic 3D-shaded interlocking-ring shape, unrelated to
+   the actual brand mark.
+2. Gemini Omni Flash, image-to-video anchored on the real avatar image —
+   the sand motion and art-style fidelity were good, but the framing
+   cropped into the turban and clipped the sand at the frame edge no matter
+   how the source was padded/cropped in post; the model's own generated
+   composition didn't leave enough margin to fully contain in a square crop.
+
+Switched to Veo 3.1 Fast (`veo-3.1-fast-generate-preview`) for the shipped
+version, using its `VideoGenerationReferenceImage` / `reference_type="asset"`
+feature — built specifically to preserve a subject's appearance across
+generated motion, rather than a general image-to-video "animate this frame"
+task. The prompt explicitly named Avatar: The Last Airbender's sandbending
+visual language (circular martial-arts-style bending gestures, sand arcing
+in ribbons/rings, glinting grains at the trailing edge) and demanded
+generous margin ("at least 25% clear background margin... nothing may touch
+or cross any edge of the frame, even at the widest point of the sand's
+arc") — the character came back fully contained with real margin on the
+first generation, no post-hoc padding needed this time. Reference images
+force an 8-second duration on Veo 3.1 (not adjustable). Model also generated
+real ambient audio (not near-silent, unlike the Omni Flash attempts) — audible
+in the `.mp4`, dropped in the `.gif`.
+
+Cropped to a square via `ffmpeg crop` (visually verified across multiple
+sampled frames for edge containment, not just the first frame) rather than
+ping-ponged — the first and last frames of the 8s clip already closely
+matched, so a straight forward loop was clean without needing a
+reverse-concat.
 
 ```
-In a single unbroken scene, locked-off static camera, no camera movement, no
-zoom, no pan, no cuts. Animate exactly this reference image: keep the
-identical flat, solid-opaque-color, poster-print vector style with hard
-crisp edges — no 3D depth, no gradients, no lighting, no shadows, no
-shading, no glossy or metallic look, stay perfectly flat like the source.
-The five ribbon strands (rose-burgundy, violet-purple, deep teal, warm gold,
-slate blue) continue their same gentle weaving and braiding motion, flowing
-smoothly over and under each other exactly as they already do in the image,
-converging into the same tight braided knot on the right side which keeps
-subtly twisting in place. Background stays plain and unchanged. No text, no
-logos, no watermark, no dialogue, no audio, no music, completely silent.
-Loop-friendly: the last frame should closely match the first frame.
+A chest-up portrait shot of the exact character shown in the reference
+image: a bearded man with glasses, a red-and-gold turban, and an ornate
+red-and-gold robe, illustrated in the same flat 2D animated art style as
+the reference, against the same warm blue-to-orange desert sunset gradient
+sky. Locked-off static camera, no zoom, no pan, no camera movement, no
+cuts. The character himself, his face, turban, and robe stay completely
+still and unchanged throughout, exactly matching the reference image's
+design and colors. He is Avatar-The-Last-Airbender-style sandbending: with
+a slow, deliberate, martial-arts-like circular gesture of his raised hand,
+he draws a stream of golden desert sand up from below and bends it through
+the air in smooth sweeping arcs and ribbons around his hand and shoulder,
+the way sandbenders and earthbenders control sand and earth in Avatar: The
+Last Airbender — controlled, flowing, rhythmic, with the sand catching the
+warm sunset light and glinting as fine individual grains at the trailing
+edges of each arc. The character is framed small and centered with
+generous empty space on every side — at least 25% clear background margin
+above his turban, and to the left and right of him and the sand — so that
+nothing, neither the character nor the sand, ever touches or crosses any
+edge of the frame, even at the widest point of the sand's arc. Flat
+illustrated animation style throughout, no photorealism, no 3D rendering.
+No text, no logos, no watermark, no dialogue, no audio, no music,
+completely silent. The motion should be smooth and cyclical enough to loop.
 ```
-
-`divider.png` is kept in the repo as the static source/fallback asset, not
-removed.
 
 ## Stack badges (assets/badge-*.svg)
 

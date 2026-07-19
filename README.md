@@ -12,34 +12,11 @@
 
 I spent five years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations. Now I'm deploying AI agents across that stack and beyond: Anthropic, Gemini, AWS, and more.
 
-![](assets/divider.gif)
+![](assets/divider.png)
 
 <table>
 <tr>
-<td width="60%" valign="top">
-
-### Currently
-
-- 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
-- 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
-- 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
-<br>
-
-</td>
-<td width="40%" valign="top">
-
-### Quick facts
-
-- 📍 Jaipur, Rajasthan, India
-- 🏅 18x Salesforce Certified
-- 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
-- 💼 [Full portfolio](https://shivanshsen.com/portfolio)
-- 🧩 [Skills repo](https://github.com/shivanshsen7/skills)
-<br>
-
-</td>
-</tr>
-</table>
+<td width="58%" valign="top">
 
 ### Stack
 
@@ -54,6 +31,31 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 </p>
+
+### Quick facts
+
+- 📍 Jaipur, Rajasthan, India
+- 🏅 18x Salesforce Certified
+- 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
+- 💼 [Full portfolio](https://shivanshsen.com/portfolio)
+- 🧩 [Skills repo](https://github.com/shivanshsen7/skills)
+<br>
+
+</td>
+<td width="42%" valign="top" align="center">
+
+<img src="assets/avatar-sandbend.gif" width="320" alt="Illustrated avatar sandbending" />
+
+### Currently
+
+- 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
+- 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
+- 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
+<br>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
