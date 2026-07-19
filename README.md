@@ -3,6 +3,7 @@
 ![Shivansh Sen — Principal Technical Consultant, Salesforce Agentforce & Data Cloud, agentic AI in production](assets/banner.png)
 
 <p>
+  <img src="https://img.shields.io/badge/Agentic_AI_Architect-A82E4B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/18x-Salesforce_Certified-00A1E0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform_Integration_Architect-00A1E0?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Agentforce_Specialist-00A1E0?style=for-the-badge" />
