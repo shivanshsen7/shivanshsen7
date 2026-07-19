@@ -6,9 +6,9 @@
   <img src="https://img.shields.io/badge/Agentforce_Specialist-00A1E0?style=for-the-badge" />
 </p>
 
-Four years inside enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations — before moving into building AI agent systems on top of that same data.
+I spent four years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations — then deployed AI agent systems on that same data layer.
 
-- 🤖 Building agentic AI systems on Salesforce Agentforce & Data Cloud — real deployments, not demos
+- 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
 - 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
 - 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
 
