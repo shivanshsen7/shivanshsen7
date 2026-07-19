@@ -32,26 +32,12 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 - 🏅 18x Salesforce Certified
 - 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
 - 💼 [Full portfolio](https://shivanshsen.com/portfolio)
+- 🧩 [Skills repo](https://github.com/shivanshsen7/skills)
 <br>
 
 </td>
 </tr>
 </table>
-
-<details>
-<summary><b>Selected work</b></summary>
-<br>
-
-| Engagement | Client | What it was |
-|---|---|---|
-| [Revenue Cloud Advanced](https://shivanshsen.com/portfolio/salesforce-revenue-cloud-advanced-iss) | Industrial Support Services | Revenue Cloud Advanced implementation — products, bundles, attribute-based pricing, Revenue Cloud Billing |
-| [Omnistudio](https://shivanshsen.com/portfolio/salesforce-omnistudio-insurance) | Global Insurance Provider | Omnistudio implementation — flexible UI via LWC/Apex, billing data model and enrichment |
-| [CPQ + Conga Composer](https://shivanshsen.com/portfolio/salesforce-cpq-conga-composer) | Cloud Services Provider | CPQ and Conga Composer implementation — document generation, bulkified automations |
-| [Service Cloud + FSL](https://shivanshsen.com/portfolio/service-cloud-fsl-solar) | Solar Power Plant Provider | Service Cloud and Field Service Lightning — led a 3-person team as Lead Developer |
-
-Full case studies with challenge/solution/impact breakdowns: **[shivanshsen.com/portfolio](https://shivanshsen.com/portfolio)**
-
-</details>
 
 ### Stack
 
