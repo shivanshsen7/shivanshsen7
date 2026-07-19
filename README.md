@@ -1,8 +1,4 @@
-<!-- Banner placeholder: swap in a generated banner, see chat for the prompt -->
-
-# Shivansh Sen
-
-**Principal Technical Consultant — Salesforce Agentforce & Data Cloud, agentic AI in production**
+![Shivansh Sen — Principal Technical Consultant, Salesforce Agentforce & Data Cloud, agentic AI in production](assets/banner.png)
 
 <p>
   <img src="https://img.shields.io/badge/18x-Salesforce_Certified-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
