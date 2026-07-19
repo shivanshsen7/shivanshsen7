@@ -12,7 +12,7 @@
 
 I spent five years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations. Now I'm deploying AI agents across that stack and beyond: Anthropic, Gemini, AWS, and more.
 
-![](assets/divider.png)
+![](assets/divider.gif)
 
 <table>
 <tr>

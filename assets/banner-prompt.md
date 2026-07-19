@@ -79,6 +79,52 @@ taper at the ends, no drop shadows, crisp hard edges, thin strand width
 relative to the frame height. No text, no logos, no watermark.
 ```
 
+## divider.gif
+
+An animated version of `divider.png`, used in place of the static image in the
+README. Model: Gemini Omni Flash (`gemini-omni-flash-preview`), called
+directly via the Gemini API (image-to-video), anchored on the actual
+`divider.png` file as the input image rather than a blind text prompt.
+
+A first attempt used a fresh text-only prompt describing the same weaving
+motif — it ignored the "flat, no gradients, no shading" instructions and
+came back as a 3D-shaded interlocking-ring "atom" shape, closer to a
+generic AI-video default than the site's actual flat-vector mark. Feeding
+the real `divider.png` as the source image for image-to-video generation
+instead kept the output anchored to the true flat style and exact brand
+palette.
+
+The model composited the source's transparent background as solid black for
+the first frame and a light gray (`srgb(224,224,224)`, coincidentally the
+same tone used to key `divider.png`'s own checkerboard artifact — see below)
+for the rest of the clip, rather than any real alpha channel — video output
+has no alpha channel to preserve in the first place. Recovered via
+`ffmpeg colorkey` on that gray, after trimming off the one black lead-in
+frame. The raw generation was also not a seamless loop (first and last
+frame don't match), so it's ping-ponged (forward + reverse, concatenated)
+rather than regenerated — a plain edit, not a second API call — which
+guarantees a seamless loop from a single one-directional generation.
+Trimmed to ~4.5s of source before ping-ponging and downscaled for file size
+(the full untrimmed ping-pong version was 14MB; the shipped version is ~3MB).
+
+```
+In a single unbroken scene, locked-off static camera, no camera movement, no
+zoom, no pan, no cuts. Animate exactly this reference image: keep the
+identical flat, solid-opaque-color, poster-print vector style with hard
+crisp edges — no 3D depth, no gradients, no lighting, no shadows, no
+shading, no glossy or metallic look, stay perfectly flat like the source.
+The five ribbon strands (rose-burgundy, violet-purple, deep teal, warm gold,
+slate blue) continue their same gentle weaving and braiding motion, flowing
+smoothly over and under each other exactly as they already do in the image,
+converging into the same tight braided knot on the right side which keeps
+subtly twisting in place. Background stays plain and unchanged. No text, no
+logos, no watermark, no dialogue, no audio, no music, completely silent.
+Loop-friendly: the last frame should closely match the first frame.
+```
+
+`divider.png` is kept in the repo as the static source/fallback asset, not
+removed.
+
 ## Stack badges (assets/badge-*.svg)
 
 `salesforce`, `amazonaws`/`aws`, and `openai` were all removed from the
