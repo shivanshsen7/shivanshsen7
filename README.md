@@ -24,4 +24,4 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 </p>
 
-Full portfolio, case studies, and writing: **[shivanshsen.com](https://shivanshsen.com)**
+Full portfolio, case studies, and writing: **[shivanshsen.com](https://shivanshsen.com)** · [LinkedIn](https://www.linkedin.com/in/shivanshsen7/) · [Trailhead](https://www.salesforce.com/trailblazer/shivanshsen7)
