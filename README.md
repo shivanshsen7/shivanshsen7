@@ -12,11 +12,7 @@
 
 I spent five years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations. Now I'm deploying AI agents across that stack and beyond: Anthropic, Gemini, AWS, and more.
 
-![](assets/divider.png)
-
-<table>
-<tr>
-<td width="58%" valign="top">
+<img src="assets/avatar-sandbend.gif" align="right" width="280" alt="Illustrated avatar sandbending" />
 
 ### Stack
 
@@ -39,23 +35,16 @@ I spent five years building enterprise Salesforce platforms — CPQ, Revenue Clo
 - 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
 - 💼 [Full portfolio](https://shivanshsen.com/portfolio)
 - 🧩 [Skills repo](https://github.com/shivanshsen7/skills)
-<br>
 
-</td>
-<td width="42%" valign="top" align="center">
-
-<img src="assets/avatar-sandbend.gif" width="320" alt="Illustrated avatar sandbending" />
+<br clear="right" />
 
 ### Currently
 
 - 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
 - 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
 - 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
-<br>
 
-</td>
-</tr>
-</table>
+![](assets/divider.png)
 
 <div align="center">
 
