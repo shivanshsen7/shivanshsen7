@@ -1,54 +1,37 @@
-<div align="center">
+<a href="https://shivanshsen.com">
+  <img src="assets/ledger-banner.svg" width="100%" alt="Shivansh Sen — Enterprise AI needs judgment before it needs another agent." />
+</a>
 
-![Shivansh Sen — Principal Technical Consultant, Salesforce Agentforce & Data Cloud, agentic AI in production](assets/banner.png)
+<img src="assets/ledger-owl.webp" align="right" width="130" alt="The Architecture Ledger owl, perched on an architectural plinth." />
 
-<p>
-  <img src="https://img.shields.io/badge/Agentic_AI_Architect-A82E4B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/18x-Salesforce_Certified-00A1E0?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform_Integration_Architect-00A1E0?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Agentforce_Specialist-00A1E0?style=for-the-badge" />
-</p>
+I'm Shivansh, a Principal Technical Consultant in Jaipur. I design governed agent systems, Salesforce architectures, and the human approval paths between them.
 
-</div>
+Five years building enterprise Salesforce platforms: CPQ, Revenue Cloud, and integrations. My work now includes Agentforce, Data Cloud, and deciding what an agent can do alone.
 
-I spent five years building enterprise Salesforce platforms — CPQ, Revenue Cloud, integrations. Now I'm deploying AI agents across that stack and beyond: Anthropic, Gemini, AWS, and more.
+**18× Salesforce Certified** · [Trailblazer](https://www.salesforce.com/trailblazer/shivanshsen7)
 
-<img src="assets/avatar-sandbend.gif" align="right" width="280" alt="Illustrated avatar sandbending" />
-
-### Stack
-
-<p>
-  <img src="assets/badge-salesforce.svg" />
-  <img src="assets/badge-aws.svg" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="assets/badge-codex.svg" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-</p>
-
-### Quick facts
-
-- 📍 Jaipur, Rajasthan, India
-- 🏅 18x Salesforce Certified
-- 🔗 [Trailhead profile](https://www.salesforce.com/trailblazer/shivanshsen7)
-- 💼 [Full portfolio](https://shivanshsen.com/portfolio)
-- 🧩 [Skills repo](https://github.com/shivanshsen7/skills)
+[Decision notes](https://shivanshsen.com/decision-notes) · [Systems shipped](https://shivanshsen.com/systems) · [About me](https://shivanshsen.com/about)
 
 <br clear="right" />
 
-### Currently
+### Selected work
 
-- 🤖 Deploying agentic AI systems on Salesforce Agentforce and Data Cloud in production
-- 🧭 Deciding what an agent can do alone, and where a person has to stay in the loop
-- 🛠️ Shipping with Claude Code and Codex, across AWS and GCP
+- **[Salesforce Renames](https://github.com/shivanshsen7/salesforce-renames)** — An agent-queryable knowledge bundle tracking product and certification changes. Sources, verification status, and disputed claims stay visible.
+- **[Codex SEO](https://github.com/shivanshsen7/codex-seo)** — An early TypeScript foundation for SEO workflows with reviewable evidence and explicit failure states. Not yet an installable toolkit.
+- **[Nebula Logger docs with Blume](https://github.com/shivanshsen7/blume-nebula-logger-docs)** — My unofficial documentation rebuild of [jongpie's Nebula Logger](https://github.com/jongpie/NebulaLogger), with upstream attribution.
 
-<div align="center">
+### Writing
 
-Full portfolio, case studies, and writing: **[shivanshsen.com](https://shivanshsen.com)** · [LinkedIn](https://www.linkedin.com/in/shivanshsen7/) · [Trailhead](https://www.salesforce.com/trailblazer/shivanshsen7)
+**[Claude Code in Action: a practitioner's take](https://shivanshsen.com/decision-notes/claude-code-in-action-course-review)**<br>
+What changed how I work after Anthropic's course, where I disagree, and the gaps you'll fill yourself.
 
-</div>
+I write about the decisions, tradeoffs, and false starts behind the build at **[Architecture Ledger](https://shivanshsen.com)**.
 
-![](assets/divider.png)
+### Tools I use
+
+Salesforce · Agentforce · Data Cloud · TypeScript · Python · AWS · GCP<br>
+Claude Code · Codex
+
+---
+
+[Get in touch](https://shivanshsen.com/contact) · [LinkedIn](https://www.linkedin.com/in/shivanshsen7/)

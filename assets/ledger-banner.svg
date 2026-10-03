@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title description">
+  <title id="title">Shivansh Sen — Architecture Ledger</title>
+  <desc id="description">Enterprise AI needs judgment before it needs another agent. Architecture, people, systems that last.</desc>
+  <rect width="1600" height="480" fill="#f2ecdd"/>
+  <path d="M64 66h52" stroke="#944631" stroke-width="3"/>
+  <text x="64" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#191b18">Shivansh <tspan fill="#944631">Sen</tspan></text>
+  <text x="64" y="174" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" fill="#6b6860">PRINCIPAL TECHNICAL CONSULTANT · JAIPUR</text>
+  <path d="M64 212h1472" stroke="#d7c6aa"/>
+  <text x="64" y="304" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#191b18">Enterprise AI needs <tspan font-style="italic" fill="#944631">judgment</tspan></text>
+  <text x="64" y="378" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#191b18">before it needs another agent.</text>
+  <text x="1536" y="96" text-anchor="end" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" fill="#6b6860">ARCHITECTURE · PEOPLE</text>
+  <text x="1536" y="128" text-anchor="end" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" fill="#6b6860">SYSTEMS THAT LAST</text>
+  <path d="M64 432h1472" stroke="#d7c6aa"/>
+</svg>
